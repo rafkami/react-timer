@@ -1,0 +1,26 @@
+.timer__container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  height: 200px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #75787b;
+}
+
+.timer--commands {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: #d9d5cb;
+}
+
+@media (max-width: 640px) {
+  .timer__container {
+    width: 440px;
+  }
+  .timer--commands {
+    font-size: 1.3rem;
+  }
+}
